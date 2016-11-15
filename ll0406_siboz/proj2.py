@@ -403,7 +403,7 @@ class proj2(dml.Algorithm):
                     {prov.model.PROV_TYPE:'ont:Retrieval',
                     }
                 )
-            doc.usage(compute_CorreCoef, Liquor_Resource, Shooting_crime_Resource, startTime, None,
+            doc.usage(compute_CorreCoef, Liquor_Resource, Shooting_crime_Resource, startTime,
                     {prov.model.PROV_TYPE:'ont:Compute',
                     }
                 )
